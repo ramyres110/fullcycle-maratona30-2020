@@ -1,0 +1,12 @@
+{
+  "name": "service-003-servelessendpointsum-dev-soma",
+  "version": "1.0.0",
+  "description": "",
+  "main": "handler.js",
+  "scripts": {
+    "test": "node ./handler_test.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
