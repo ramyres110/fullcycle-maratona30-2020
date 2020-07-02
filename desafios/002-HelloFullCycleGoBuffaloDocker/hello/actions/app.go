@@ -38,7 +38,7 @@ func App() *buffalo.App {
 			PreWares: []buffalo.PreWare{
 				cors.Default().Handler,
 			},
-			SessionName: "_hello_session",
+			SessionName: "_hello2_session",
 		})
 
 		// Automatically redirect to SSL

@@ -1,6 +1,6 @@
-name = "hello"
-bin = "bin/hello"
-vcs = "git"
+name = "hello2"
+bin = "bin/hello2"
+vcs = "none"
 with_pop = false
 with_sqlite = false
 with_dep = false
