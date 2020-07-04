@@ -1,0 +1,23 @@
+{% extends 'maratona_base.html' %}
+
+{% block content %}
+
+<div class="d-flex flex-row justify-content-between align-items-center">
+    <h1> Aulas </h1>
+    <a class="btn btn-primary" href='/maratona/create'> &#10010; Nova Aula</a>
+</div>
+
+<ul class="list-group list-group-flush my-3">
+    {% for aula in aulas %}
+    <li class="list-group-item d-flex flex-row justify-content-between align-items-center">
+        <div>
+            <img width="72" src="{{aula.img_link}}" alt="..." class="rounded-circle mr-4">
+            {{aula.name}}
+        </div>
+        <a target='_blank' href='{{aula.video_link}}' class="btn btn-outline-dark">Assistir</a>
+    </li>
+    {% endfor %}
+</ul>
+
+
+{% endblock %}
